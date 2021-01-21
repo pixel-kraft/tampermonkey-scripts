@@ -14,5 +14,3 @@
 
 ### RsForm
 - [PageSelector](src/joomla/rsform/PageSelector.js) - Display Page Selection for rsform. Skipping validation.
-
-wewo
