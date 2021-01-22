@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PageBuilderClasses
-// @version      0.2
+// @version      0.1
 // @description  Automaticly displays PageBuilder classes and IDs even with class/ID manager disabled.
 // @author       Rick & Flotschi
 // @match        */administrator/*
