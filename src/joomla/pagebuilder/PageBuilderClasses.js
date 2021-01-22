@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PageBuilderClasses
-// @version      0.2
+// @version      0.3
 // @description  Automaticly displays PageBuilder classes and IDs even with class/ID manager disabled.
 // @author       Rick & Flotschi
 // @match        */administrator/*
@@ -11,6 +11,29 @@
   'use strict';
 
   const styles = `
+  header h1.page-title {
+    font-size: 14px;
+    width: auto;
+    border-bottom: none;
+  }
+
+  header h1.page-title span.icon-stack {
+    display: inline-block;
+    background: none;
+  }
+
+  .mceBranding {
+	  display: none!important;
+  }
+
+  body {
+	  position: initial;
+  }
+
+  .cktype.ckinlineeditable .inner {
+    padding: 8px;
+  }
+
   div[data-customclass]:before {
     content: '.'attr(data-customclass);
     display: block;
@@ -44,6 +67,18 @@
     z-index: 91;
   }
 
+  .cktype.ckinlineeditable {
+    border: solid 1px #FFC107;
+    margin: 2px;
+    border-radius: 5px;
+  }
+
+  .blockck {
+    border: solid 1px #3AAE8E;
+    margin: 2px;
+    border-radius: 5px;
+  }
+
   div:not(.blockck) > .inner[data-customclass] {
     padding-top: 2em!important;
   }
@@ -55,6 +90,16 @@
   .rowck > .inner[data-customclass]:before {
     background: #9E9E9E;
     color: #fff;
+  }
+
+  .rowck {
+    border: solid 1px #ccc!important;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+
+  .workspaceck:not(.ckiscontenttype) .rowck:hover, .workspaceck .rowck.ckfocus {
+	border: 1px dashed #57a2ed!important;
   }
 `
   const checkFor = document.querySelector('.admin.view-article');
