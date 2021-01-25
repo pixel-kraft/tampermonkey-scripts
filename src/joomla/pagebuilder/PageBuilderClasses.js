@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PageBuilderClasses
-// @version      0.3
+// @version      0.4
 // @description  Automaticly displays PageBuilder classes and IDs even with class/ID manager disabled.
 // @author       Rick & Flotschi
 // @match        */administrator/*
@@ -23,11 +23,11 @@
   }
 
   .mceBranding {
-	  display: none!important;
+    display: none!important;
   }
 
   body {
-	  position: initial;
+    position: initial;
   }
 
   .cktype.ckinlineeditable .inner {
@@ -36,7 +36,7 @@
 
   div[data-customclass]:before {
     content: '.'attr(data-customclass);
-    display: block;
+    display: block !important;
     width: auto;
     padding: 2px;
     background: #FFC107;
@@ -102,7 +102,7 @@
 	border: 1px dashed #57a2ed!important;
   }
 `
-  const checkFor = document.querySelector('.admin.view-article');
+  const checkFor = document.querySelector('.admin.view-article, .admin.view-module');
 
   if (checkFor != null) {
     const styleSheet = document.createElement("style")
