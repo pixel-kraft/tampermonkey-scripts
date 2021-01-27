@@ -98,6 +98,10 @@
     margin: 5px 0;
     border-radius: 5px;
   }
+  
+  .ckcolwidthedition {
+    background: #ffffffcf!important;
+  }
 
   .workspaceck:not(.ckiscontenttype) .rowck:hover, .workspaceck .rowck.ckfocus {
 	border: 1px dashed #57a2ed!important;
