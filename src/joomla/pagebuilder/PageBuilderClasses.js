@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         PageBuilderClasses
-// @version      0.4
+// @version      0.5
 // @description  Automaticly displays PageBuilder classes and IDs even with class/ID manager disabled.
 // @author       Rick & Flotschi
 // @match        */administrator/*
+// @downloadURL  https://raw.githubusercontent.com/pixel-kraft/tampermonkey-scripts/master/src/joomla/pagebuilder/PageBuilderClasses.js
 // @grant        none
 // ==/UserScript==
 
