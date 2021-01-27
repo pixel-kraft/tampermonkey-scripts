@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         RsForm PageSelector
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Display Page Selection for rsform. Skipping validation.
 // @author       Flotschi
 // @include      *
+// @downloadURL  https://raw.githubusercontent.com/pixel-kraft/tampermonkey-scripts/master/src/joomla/rsform/PageSelector.js
 // @grant        none
 // ==/UserScript==
 

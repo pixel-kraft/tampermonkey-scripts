@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         ManagerAll
-// @version      0.1
+// @version      0.2
 // @description  Set Joomla's manager overview automaticly to to "all".
 // @author       Rick & Kylian
 // @match        */administrator/*
+// @downloadURL  https://raw.githubusercontent.com/pixel-kraft/tampermonkey-scripts/master/src/joomla/backend/ManagerAll.js
 // @grant        none
 // ==/UserScript==
 
