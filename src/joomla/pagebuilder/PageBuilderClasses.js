@@ -48,6 +48,7 @@
     line-height: 1.5;
     border-radius: 0 0 5px 0!important;
     z-index: 90;
+    font-size: 13px;
   }
 
   div.rowck:hover:before {
