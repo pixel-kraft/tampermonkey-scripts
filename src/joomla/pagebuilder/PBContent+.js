@@ -49,6 +49,12 @@
     border-radius: 0 0 5px 0!important;
     z-index: 90;
     font-size: 13px;
+    transition: all 0.1s linear;
+    pointer-events: none;
+  }
+
+  div[data-customclass]:hover:before, a[data-customclass]:hover:before {
+    opacity: 0.2;
   }
 
   div.rowck:hover:before {
