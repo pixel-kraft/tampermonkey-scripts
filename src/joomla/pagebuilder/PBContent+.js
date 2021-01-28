@@ -4,7 +4,7 @@
 // @description  Adds quality of life additions to PageBuilder for a better workflow.
 // @author       pixel-devs
 // @match        */administrator/*
-// @downloadURL  https://raw.githubusercontent.com/pixel-kraft/tampermonkey-scripts/master/src/joomla/pagebuilder/PBContent+.js
+// @downloadURL  https://raw.githubusercontent.com/pixel-kraft/tampermonkey-scripts/master/src/joomla/pagebuilder/PBContent%2B.js
 // @grant        none
 // ==/UserScript==
 
