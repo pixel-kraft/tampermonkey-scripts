@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         PageBuilderClasses
-// @version      0.6
-// @description  Automaticly displays PageBuilder classes and IDs even with class/ID manager disabled.
-// @author       Rick & Flotschi
+// @name         PBContent+
+// @version      0.1
+// @description  Adds quality of life additions to PageBuilder for a better workflow.
+// @author       pixel-devs
 // @match        */administrator/*
-// @downloadURL  https://raw.githubusercontent.com/pixel-kraft/tampermonkey-scripts/master/src/joomla/pagebuilder/PageBuilderClasses.js
+// @downloadURL  https://raw.githubusercontent.com/pixel-kraft/tampermonkey-scripts/master/src/joomla/pagebuilder/PBContent+.js
 // @grant        none
 // ==/UserScript==
 
