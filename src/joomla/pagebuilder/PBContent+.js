@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PBContent+
-// @version      0.1
+// @version      0.2
 // @description  Adds quality of life additions to PageBuilder for a better workflow.
 // @author       pixel-devs
 // @match        */administrator/*
@@ -35,7 +35,7 @@
     padding: 8px;
   }
 
-  div[data-customclass]:before {
+  div[data-customclass]:before, a[data-customclass]:before {
     content: '.'attr(data-customclass);
     display: block !important;
     width: auto;
