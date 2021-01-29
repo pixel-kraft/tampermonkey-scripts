@@ -113,6 +113,10 @@
   .workspaceck:not(.ckiscontenttype) .rowck:hover, .workspaceck .rowck.ckfocus {
 	border: 1px dashed #57a2ed!important;
   }
+
+  .tablerowck-rowcontrol {
+    top: unset !important;
+  }
 `
   const checkFor = document.querySelector('.admin.view-article, .admin.view-module');
 
