@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PBContent+
-// @version      0.2
+// @version      0.3
 // @description  Adds quality of life additions to PageBuilder for a better workflow.
 // @author       pixel-devs
 // @match        */administrator/*
@@ -88,7 +88,7 @@
   }
 
   div:not(.blockck) > .inner[data-customclass] {
-    padding-top: 2em!important;
+    postition: relative;
   }
 
   .blockck > .inner[data-customclass]:before {
