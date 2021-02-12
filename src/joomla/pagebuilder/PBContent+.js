@@ -51,6 +51,7 @@
     font-size: 13px;
     transition: all 0.1s linear;
     pointer-events: none;
+    color: white;
   }
 
   div[data-customclass]:hover:before, a[data-customclass]:hover:before {
