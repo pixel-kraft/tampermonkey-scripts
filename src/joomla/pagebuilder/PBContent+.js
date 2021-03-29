@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PBContent+
-// @version      0.3
+// @version      0.4
 // @description  Adds quality of life additions to PageBuilder for a better workflow.
 // @author       pixel-devs
 // @match        */administrator/*
@@ -126,5 +126,15 @@
     styleSheet.setAttribute('type', 'text/css');
     styleSheet.innerText = styles
     document.head.appendChild(styleSheet)
+
+    // It removes the class the next time you open the File.
+    // I could have made a MutationObserver but that would've been too much work.
+    const dataClassCleanup = document.querySelectorAll('.inner[data-customclass]');
+
+    dataClassCleanup.forEach(el => {
+      if (el.getAttribute("data-customclass") == (null || "")) {
+        el.removeAttribute('data-customclass');
+      }
+    });
   }
 })();
