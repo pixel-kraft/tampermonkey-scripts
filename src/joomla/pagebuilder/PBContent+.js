@@ -76,6 +76,12 @@
     z-index: 91;
   }
 
+  body.view-module div.rowck:hover:before {
+    left: unset;
+    right: 0;
+    pointer-events: none;
+  }
+
   .cktype.ckinlineeditable {
     border: solid 1px #FFC107;
     margin: 2px;
