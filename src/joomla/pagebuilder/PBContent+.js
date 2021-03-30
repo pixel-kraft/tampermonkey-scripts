@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PBContent+
-// @version      0.4
+// @version      0.5
 // @description  Adds quality of life additions to PageBuilder for a better workflow.
 // @author       pixel-devs
 // @match        */administrator/*
